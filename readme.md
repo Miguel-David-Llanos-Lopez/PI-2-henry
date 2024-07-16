@@ -50,5 +50,5 @@ ademas si lo comparamos con la cantidad de personas con velocidades de 1 a 6 Mbp
 
 # autores
 
-proyecto realizado por Miguel Llanos
+proyecto realizado por Miguel Llanos <br>
 gmail: llanoslopezmigueldavid@gmail.com
