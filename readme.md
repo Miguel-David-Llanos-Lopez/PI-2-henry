@@ -1,10 +1,11 @@
 # tabla de contenido
 [introduccion](#introduccion)
 [instalcion y requisitos](#instalcion-y-requisitos)
+[estructura del proyecto](#estructura-del-proyecto)
 [uso y Ejecución](#uso-y-ejecución)
 [Datos y Fuentes](#Datos-y-Fuentes)
 [concluciones](#concluciones)
-[autores]()
+[autores](#autores)
 
 # introduccion
 
@@ -31,13 +32,22 @@ pip install pandas
 pip install matplotlib
 pip install seaborn
 
+# Estructura del proyecto
+
+- data/entrada: estan los archivos utilizados para realizar el ETL y posterior EDA
+- data/salida: se encuentran los archivos limpios, estos mismos son los que se usaron para crear el dashboard
+- notebooks: se encuentra el archivo donde se realizo el ETL y el EDA
+- analisis.pbix: este es el dashboard
+- readme.md: es el archivo de documentacion del proyecto
+
 # uso y Ejecución
 1) Para ejecutar el EDA, abrir el notebook EDA.ipynb en la carpeta notebooks/.
 2) El notebook guiará a través de las diferentes etapas del análisis, incluyendo carga de datos, la limpieza de los mismos y las visualizaciones.
 3) para ver un analisis interactivo abrir el archivo analisis.pbix
 
 # Datos y Fuentes
-Los datos utilizados en este proyecto provienen de [enacom](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Findicadores.enacom.gob.ar%2FFiles%2FDatos_Abiertos%2FInternet.xlsx&wdOrigin=BROWSELINK). Los datos incluyen información sobre la cantidad de accesos a internet por cada 100 personas y hogares, los accesos por velocidad y tecnologia entre otros. Los archivos de datos se encuentran en la carpeta data/entrada en formato xlsx.
+Los datos utilizados en este proyecto provienen de [enacom](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Findicadores.enacom.gob.ar%2FFiles%2FDatos_Abiertos%2FInternet.xlsx&wdOrigin=BROWSELINK). Los datos incluyen información sobre la cantidad de accesos a internet por cada 100 personas y hogares, los accesos por velocidad y tecnologia entre otros. El archivo se encuentra en la carpeta data/entrada en formato xlsx.<br>
+los datos creados y transformados para poder visualizarlos en power BI estan en la carpeta data/salida 
 
 # concluciones
 
