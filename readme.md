@@ -1,4 +1,10 @@
 # tabla de contenido
+[introduccion](#introduccion)
+[instalcion y requisitos](#instalcion-y-requisitos)
+[uso y Ejecución](#uso-y-ejecución)
+[Datos y Fuentes](#Datos-y-Fuentes)
+[concluciones](#concluciones)
+[autores]()
 
 # introduccion
 
@@ -41,3 +47,8 @@ aunque en el 2014 la tecnogia mas usada era el ADSL desde el 2020 el cable modem
 
 con respecto a la distibucion geografica de las velcidades categorias se ve una concentracion de la cantidad de personas con velocidades de internet superiores a 30 Mbps en caba, buenos aires y las provincias aledañas se cree que esto es porque hay una mayor poblacion en esos lugares ademas de un mayor cantidad de conecciones por hogar. <br>
 ademas si lo comparamos con la cantidad de personas con velocidades de 1 a 6 Mbps hay un comportamiento similar pero cabe resaltar que hay una mayor cantidad de personas con acceso a esa velocidad a lo largo del pais y ademas hay una reduccion significativa de las personas que utilizan esas velocidades en los ultimos años
+
+# autores
+
+proyecto realizado por Miguel Llanos
+gmail: llanoslopezmigueldavid@gmail.com
